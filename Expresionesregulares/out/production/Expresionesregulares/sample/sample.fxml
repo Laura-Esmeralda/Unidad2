@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="txtText" layoutX="70.0" layoutY="37.0" prefHeight="25.0" prefWidth="261.0" />
+      <ListView fx:id="listEje" layoutX="70.0" layoutY="78.0" prefHeight="200.0" prefWidth="261.0" />
+      <Button layoutX="70.0" layoutY="295.0" mnemonicParsing="false" onAction="#procesar" prefHeight="25.0" prefWidth="261.0" text="Procesar" />
+      <Label fx:id="lblResultado" layoutX="70.0" layoutY="349.0" prefHeight="36.0" prefWidth="261.0" text="Resultado" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
