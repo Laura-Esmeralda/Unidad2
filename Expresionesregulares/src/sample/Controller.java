@@ -16,7 +16,9 @@ public class Controller {
     @FXML protected void initialize(){
         listEje.getItems().addAll("Ejercicio 1", "Ejercicio 2", "Validar Grupo", "Palabra con guión",
                 "Ejercicio 5", "palabra con count", "dos nombres", "MAC address", "Ejercicio 9", "número binario",
-                "número hexadecimal", "Operación", "número de control", "CURP");
+                "número hexadecimal", "Operación", "número de control", "CURP", "X cantidad de pesos",
+                "numero de tarjeta de credito", "etiqueta html", "color hexadecimal", "link", "Query Insert into",
+                "sentencia if", "salto de linea", "url youtube");
     }
     public void procesar(ActionEvent event){
         int seleccion=listEje.getSelectionModel().getSelectedIndex();
@@ -77,6 +79,43 @@ public class Controller {
             }
             case 13:{
                 expresion="(^[A-Z]{4})([0-9]{6})([A-Z]{6})([0-9]{2})";
+                break;
+            }
+            case 14:{
+                expresion="(^[$]{1})([0-9]{1,})([.]{1})([0-9]{2})([mxn]{3}$)";
+                break;
+            }
+            case 15:{
+                expresion="([0-9]{4})[ ]([0-9]{4})[ ]([0-9]{4})[ ]([0-9]{4})";
+                break;
+            }
+            case 16:{
+                expresion="(^[<title>]{7})([a-zA-Z]{1,})([</title>]{8}$)";
+                break;
+            }
+            case 17:{
+                expresion="(^[#]{1})([A-Z0-9]{6})";
+                break;
+            }
+            case 18:{
+                expresion="(^[http]{4})[:][/][/]([a-zA-Z0-9]{1,})([.com]{4}$)";
+                break;
+            }
+            case 19:{
+                expresion="(^[INSERT INTO]{11})[ ]([a-zA-Z ]{1,})[(]([a-zA-Z0-9, ]{1,})[)]";
+                break;
+            }
+            case 20:{
+                expresion="(^[if(]{3})([-a-zA-Z=+.]{1,})[){ }]{4}";
+                break;
+            }
+            case 21:{
+                //salto de linea
+                expresion="([a-zA-Z]{1,})\n([a-zA-Z]{1,})";
+                break;
+            }
+            case 22:{
+                expresion="(^[http]{4})[:][/][/]([www.youtube.com/]{16})([a-zA-Z0-9=?]{1,})";
                 break;
             }
         }
