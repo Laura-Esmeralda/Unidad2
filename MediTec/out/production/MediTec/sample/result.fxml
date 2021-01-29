@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="receta" prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <Label text="Receta MediTec">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="100.0" right="100.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

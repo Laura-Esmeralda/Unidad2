@@ -1,0 +1,57 @@
+package sample.Interprete;
+
+import java.util.ArrayList;
+
+public class tiposToken {
+    public static String SINTOMA= "SINTOMA";
+    public static String SINTOMAS= "SINTOMAS";
+    public static String MEDICAMENTO= "MEDICAMENTO";
+    public static String MEDICAMENTOS= "MEDICAMENTOS";
+    public static String MEDIDA= "MEDIDA";
+    public static String CANTIDAD= "INTEGER";
+    public static String TRATAMIENTO= "TRATAMIENTO";
+    public static String DOLOR_DE_CABEZA= "DOLOR DE CABEZA";
+    public static String DOLOR_DE_GARGANTA= "DOLOR DE GARGANTA";
+    public static String DOLOR_DE_ESTOMAGO= "DOLOR DE ESTOMAGO";
+    public static String TOS= "TOS";
+    public static String FIEBRE= "FIEBRE";
+    public static String DOLOR_MUSCULAR= "DOLOR MUSCULAR";
+    public static String CALENTURA= "CALENTURA";
+    public static String SARPULLIDO= "SARPULLIDO";
+    public static String MAREOS= "MAREOS";
+    public static String SUEÑO= "SUEÑO";
+    public static String DOLOR_DE_MUELA= "DOLOR DE MUELA";
+    public static String COLICOS= "COLICOS";
+    public static String NAUSEAS= "NAUSEAS";
+    public static String PRESION_ALTA= "PRESION ALTA";
+    public static String INFLAMACION= "INFLAMACION";
+    public static String CONGESTIONAMIENTO= "CONGESTIONAMIENTO";
+    public static String GRIPE= "GRIPE";
+    public static String INFECCION= "INFECCION";
+    public static String ASPIRINA= "ASPIRINA";
+    public static String IBUPROFENO= "IBUPROFENO";
+    public static String PARACETAMOL= "PARACETAMOL";
+    public static String DICLOFENACO= "DICLOFENACO";
+    public static String SAL_DE_UVAS_PICOT= "SAL DE UVAS PICOT";
+    public static String MELOX_PLUS= "MELOX PLUS";
+    public static String OMEPRAZOL= "OMEPRAZOL";
+    public static String BUSCAPINA= "BUSCAPINA";
+    public static String FLANAX= "FLANAX";
+    public static String SINCOL= "SINCOL";
+    public static String FENILEFRINA= "FENILEFRINA";
+    public static String CLORFENAMINA= "CLORFENAMINA";
+    public static String AMOXICILINA= "AMOXICILINA";
+    public static String BICARBONATO_DE_SODIO= "BICARBONATO DE SODIO";
+    public static String MECILIZINA= "MECILIZINA";
+    public static String ENALAPRIL= "ENALAPRIL";
+    public static String GINSENG= "GINSENG";
+    public static String MILILITROS= "MILILITROS";
+    public static String MILIGRAMOS= "MILIGRAMOS";
+    public static String CUCHARADA= "CUCHARADA";
+    public static String CUCHARADAS= "CUCHARADAS";
+    public static String PASTILLA= "PASTILLA";
+    public static String PASTILLAS= "PASTILLAS";
+    public static String A= "STRING"; public static String B= "STRING";
+    public static String REPOSO= "REPOSO";
+    public static ArrayList<Token> arrayToken=new ArrayList<>();
+}

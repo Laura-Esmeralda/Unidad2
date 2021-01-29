@@ -28,6 +28,3 @@
 .paragraph-box:has-caret {
     -fx-background-color: #f2f9fc;
 }
-.pastillas{
--fx-background-image: url("./scr/sample/imagen/pastillasDolor.jpg");
-}

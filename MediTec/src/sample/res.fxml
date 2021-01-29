@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="result" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerRes">
+   <children>
+      <Button mnemonicParsing="false" onAction="#obtenerRes" prefHeight="25.0" prefWidth="56.0" text="resultado">
+         <VBox.margin>
+            <Insets bottom="10.0" left="120.0" right="120.0" top="10.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
